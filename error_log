@@ -1,0 +1,25 @@
+[03-Dec-2019 07:23:57 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '', '' (T_CONSTANT_ENCAPSED_STRING) in /home/luwq4228/public_html/ppid/application/controllers/sysadmin/Komentar.php on line 15
+[03-Dec-2019 07:24:22 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '', '' (T_CONSTANT_ENCAPSED_STRING) in /home/luwq4228/public_html/ppid/application/controllers/sysadmin/Komentar.php on line 15
+[03-Dec-2019 07:24:34 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '', '' (T_CONSTANT_ENCAPSED_STRING) in /home/luwq4228/public_html/ppid/application/controllers/sysadmin/Komentar.php on line 15
+[03-Dec-2019 11:44:53 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '', '' (T_CONSTANT_ENCAPSED_STRING) in /home/luwq4228/public_html/ppid/application/controllers/sysadmin/Kategori_informasi.php on line 15
+[03-Dec-2019 11:46:52 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '', '' (T_CONSTANT_ENCAPSED_STRING) in /home/luwq4228/public_html/ppid/application/controllers/sysadmin/Informasi.php on line 15
+[03-Dec-2019 11:47:45 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '', '' (T_CONSTANT_ENCAPSED_STRING) in /home/luwq4228/public_html/ppid/application/controllers/sysadmin/Informasi.php on line 15
+[03-Dec-2019 11:49:34 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '', '' (T_CONSTANT_ENCAPSED_STRING) in /home/luwq4228/public_html/ppid/application/controllers/sysadmin/Informasi.php on line 15
+[04-Dec-2019 22:16:52 Asia/Jakarta] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/luwq4228/public_html/ppid/application/views/ppidv1/info_publik.php on line 86
+[04-Dec-2019 22:46:11 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '+=' (T_PLUS_EQUAL) in /home/luwq4228/public_html/ppid/application/controllers/ppid/Info_berkala.php on line 30
+[04-Dec-2019 22:46:59 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '+=' (T_PLUS_EQUAL) in /home/luwq4228/public_html/ppid/application/controllers/ppid/Info_berkala.php on line 30
+[04-Dec-2019 23:25:50 Asia/Jakarta] PHP Fatal error:  Cannot redeclare Minformasi::update_unduh() in /home/luwq4228/public_html/ppid/application/models/Minformasi.php on line 68
+[04-Dec-2019 23:26:38 Asia/Jakarta] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home/luwq4228/public_html/ppid/application/controllers/ppid/Info_tiap_saat.php on line 50
+[05-Dec-2019 09:44:05 Asia/Jakarta] PHP Fatal error:  Cannot use object of type stdClass as array in /home/luwq4228/public_html/ppid/application/controllers/Ppid.php on line 23
+[05-Dec-2019 09:48:16 Asia/Jakarta] PHP Fatal error:  Cannot use object of type stdClass as array in /home/luwq4228/public_html/ppid/application/controllers/Ppid.php on line 23
+[05-Dec-2019 10:03:57 Asia/Jakarta] PHP Fatal error:  Cannot use object of type stdClass as array in /home/luwq4228/public_html/ppid/application/controllers/Ppid.php on line 23
+[05-Dec-2019 10:04:16 Asia/Jakarta] PHP Fatal error:  Cannot use object of type stdClass as array in /home/luwq4228/public_html/ppid/application/controllers/Ppid.php on line 23
+[05-Dec-2019 10:04:17 Asia/Jakarta] PHP Fatal error:  Cannot use object of type stdClass as array in /home/luwq4228/public_html/ppid/application/controllers/Ppid.php on line 23
+[05-Dec-2019 10:15:27 Asia/Jakarta] PHP Fatal error:  Cannot redeclare Mkategori_informasi::readById() in /home/luwq4228/public_html/ppid/application/models/Mkategori_informasi.php on line 19
+[05-Dec-2019 10:15:27 Asia/Jakarta] PHP Fatal error:  Cannot redeclare Mkategori_informasi::readById() in /home/luwq4228/public_html/ppid/application/models/Mkategori_informasi.php on line 19
+[05-Dec-2019 10:26:01 Asia/Jakarta] PHP Fatal error:  Call to undefined method CI_DB_mysqli_result::resilt() in /home/luwq4228/public_html/ppid/application/views/ppid/right_sidebar_blog.php on line 20
+[05-Dec-2019 10:26:13 Asia/Jakarta] PHP Fatal error:  Call to undefined method CI_DB_mysqli_result::resilt() in /home/luwq4228/public_html/ppid/application/views/ppid/right_sidebar_blog.php on line 20
+[05-Dec-2019 10:28:14 Asia/Jakarta] PHP Fatal error:  Call to a member function readByJumlah() on null in /home/luwq4228/public_html/ppid/application/views/ppid/right_sidebar_blog.php on line 20
+[05-Dec-2019 10:28:20 Asia/Jakarta] PHP Fatal error:  Call to a member function readByJumlah() on null in /home/luwq4228/public_html/ppid/application/views/ppid/right_sidebar_blog.php on line 20
+[05-Dec-2019 10:39:02 Asia/Jakarta] PHP Fatal error:  Call to undefined method Mberita::berita_limit() in /home/luwq4228/public_html/ppid/application/views/ppid/dashboard.php on line 120
+[05-Dec-2019 10:39:06 Asia/Jakarta] PHP Fatal error:  Call to undefined method Mberita::berita_limit() in /home/luwq4228/public_html/ppid/application/views/ppid/dashboard.php on line 120
