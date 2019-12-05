@@ -30,6 +30,12 @@ class Minformasi extends CI_Model {
 		return $this->db->get('informasi a');
 	}
 
+	public function readCari($q){
+		$this->db->join('kategori_informasi b', 'a.id_kategori_informasi = b.id_kategori_informasi');
+		$this->db->like('nama_informasi', $q, 'BOTH');
+		return $this->db->get('informasi a');
+	}
+
 	public function grafik($bulan, $tahun, $kategori){
 		return $this->db->query("SELECT COUNT(id_informasi) as jumlah FROM informasi WHERE MONTH(created_at) = '$bulan' AND YEAR(created_at) = '$tahun' AND id_kategori_informasi = '$kategori'");
 	}

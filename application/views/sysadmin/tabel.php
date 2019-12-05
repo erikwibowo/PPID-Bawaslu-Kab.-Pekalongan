@@ -1429,3 +1429,50 @@
     </div>
     <!-- /.row -->
 <?php } ?>
+
+<?php if ($content == "permohonan-informasi") { ?>
+	<div class="row">
+        <div class="col-12">
+        	<div class="card">
+            	<div class="card-body table-responsive">
+            		<table class="table datatable table-bordered table-hover">
+	                	<thead>
+			                <tr>
+								<th width="2%">#</th>
+								<th>Foto KTP</th>
+								<th>Nama Pemohon</th>
+								<th>Alamat</th>
+								<th>Telp</th>
+								<th>Email</th>
+								<th>Data yg diminta</th>
+								<th>Aksi</th>
+			                </tr>
+	                	</thead>
+	                	<tbody>
+			                <?php $no = 1; foreach ($data as $key): ?>
+			                <tr>
+								<td><?= $no++ ?></td>
+								<td><a target="_blank" href="<?= site_url('files/ktp_pemohon/source/'.$key->foto_ktp_pemohon) ?>"><img class="img img-responsive" height="20%" src="<?= base_url() ?>files/ktp_pemohon/source/<?= $key->foto_ktp_pemohon ?>"></a></td>
+								<td><?= xss($key->nama_pemohon) ?></td>
+								<td><?= xss($key->alamat_pemohon) ?></td>
+								<td><?= xss($key->telp_pemohon) ?></td>
+								<td><a target="_blank" href="mailto:<?= xss($key->email_pemohon) ?>"><?= xss($key->email_pemohon) ?></a></td>
+								<td><?= xss($key->permohonan_informasi) ?></td>
+								<td>
+									<div class="btn-group pull-right">
+										<a href="<?= site_url('sysadmin/permohonan-informasi/delete?id='.$key->id_permohonan_informasi.'&foto='.$key->foto_ktp_pemohon) ?>" onclick="return confirm('Apakah anda yakin akan menghpaus data ini?')" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></a>
+									</div>
+								</td>
+			                </tr>
+			                <?php endforeach ?>
+	                	</tbody>
+              		</table>
+            	</div>
+            	<!-- /.card-body -->
+          	</div>
+          	<!-- /.card -->
+        </div>
+        <!-- /.col -->
+    </div>
+    <!-- /.row -->
+<?php } ?>

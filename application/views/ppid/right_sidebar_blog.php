@@ -1,17 +1,17 @@
 <div class="col-lg-4">
    <div class="blog_right_sidebar">
       <aside class="single_sidebar_widget search_widget">
-         <form action="#">
+         <h4 class="widget_title">Pencarian Informasi</h4>
+         <form action="<?= site_url('ppid/cari-informasi') ?>">
             <div class="form-group">
                <div class="input-group mb-3">
-                  <input type="text" class="form-control" placeholder='Search Keyword'
-                  onfocus="this.placeholder = ''" onblur="this.placeholder = 'Search Keyword'">
+                  <input type="text" name="q" required class="form-control" placeholder='Ketikkan sesuatu...'>
                   <div class="input-group-append">
                      <button class="btn" type="button"><i class="ti-search"></i></button>
                   </div>
                </div>
             </div>
-            <button class="button rounded-0 primary-bg text-white w-100 btn_1" type="submit">Search</button>
+            <button class="button rounded-0 primary-bg text-white w-100 btn_1" type="submit">Cari</button>
          </form>
       </aside>
       <aside class="single_sidebar_widget post_category_widget">
@@ -27,7 +27,7 @@
             <?php endforeach ?>
          </ul>
       </aside>
-      <aside class="single_sidebar_widget popular_post_widget">
+      <!-- <aside class="single_sidebar_widget popular_post_widget">
          <h3 class="widget_title">Informasi Terbaru</h3>
          <?php foreach ($this->Mberita->beritaLimit() as $key): ?>
          <div class="media post_item">
@@ -40,6 +40,6 @@
             </div>
          </div>
          <?php endforeach ?>
-      </aside>
+      </aside> -->
    </div>
 </div>

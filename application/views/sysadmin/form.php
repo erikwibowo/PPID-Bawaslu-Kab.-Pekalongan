@@ -77,6 +77,16 @@
 						<div class="form-group" style="margin-bottom: 5px">
 							<div class="col-md-12">
 								<div class="col-md-3">
+									<label>WHATSAPP WEBSITE</label>
+								</div>
+				    			<div class="col-md-9">
+									<input type="text" value="<?= web_info('wa') ?>" id="no_wa" name="no_wa" placeholder="WHATSAPP WEBSITE" class="form-control">
+								</div>
+							</div>
+						</div>
+						<div class="form-group" style="margin-bottom: 5px">
+							<div class="col-md-12">
+								<div class="col-md-3">
 									<label>EMAIL WEBSITE</label>
 								</div>
 				    			<div class="col-md-9">

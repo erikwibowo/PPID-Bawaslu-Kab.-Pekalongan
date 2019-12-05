@@ -23,6 +23,7 @@
         <!-- style CSS -->
         <link rel="stylesheet" href="<?= base_url() ?>assets/ppidv1/css/style.css">
         <link rel="stylesheet" type="text/css" media="screen" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
+        <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         
     </head>
     <body>
@@ -43,9 +44,10 @@
                             <h4>Informasi Kontak</h4>
                             <div class="contact_info">
                                 <!-- <p>Bawaslu Kabupaten Pekalongan</p> -->
-                                <p><span> Alamat :</span><br/> <?= web_info('alamat') ?> </p>
-                                <p><span> Telepon :</span><br/> <?= web_info('telepon') ?></p>
-                                <p><span> Email : </span><br/> <?= web_info('email') ?> </p>
+                                <a style="color: #ff5e13" href="https://www.google.com/maps/place/Bawaslu+Kab+Pekalongan/@-7.0274261,109.5873428,17z/data=!3m1!4b1!4m5!3m4!1s0x2e701f3d0a4834a1:0x1cbd60ec3488a090!8m2!3d-7.0274314!4d109.5895315"><span><i class="fa fa-map-marker"></i> </span><?= web_info('alamat') ?> </a><br>
+                                <a style="color: #ff5e13" href="tel:<?= web_info('telepon') ?>"><span><i class="fa fa-phone"></i></span> <?= web_info('telepon') ?></a><br>
+                                <a style="color: #ff5e13" href="https://wa.me/<?= web_info('wa') ?>/?text=Halo%20admin <?= web_info('nama_lengkap_website') ?>"><span><i class="fa fa-whatsapp"></i> </span><?= web_info('wa') ?></a><br>
+                                <a style="color: #ff5e13" href="mailto:<?= web_info('email') ?>"><span><i class="fa fa-at"></i> </span> <?= web_info('email') ?> </a>
                             </div>
                         </div>
                     </div>

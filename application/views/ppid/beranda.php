@@ -8,7 +8,7 @@
                         <h1><span>PPID Bawaslu</span><br/>
                         Kabupaten Pekalongan</h1>
                         <p style="background-color: #fff; padding: 10px;">Terwujudnya Bawaslu sebagai Lembaga Pengawal Terpercaya dalam Penyelenggaraan Pemilu Demokratis, Bermartabat, dan Berkualitas.  </p>
-                        <a href="<?= site_url() ?>ppid/informasi/info-berkala" class="btn_1">Lihat Informasi </a>
+                        <a href="<?= site_url() ?>ppid/form-permohonan-informasi" class="btn_1">Form Permohonan Informasi </a>
                     </div>
                 </div>
             </div>

@@ -26,4 +26,6 @@
 	$this->load->view('sysadmin/tabel');
 }else if($content == 'kategori-informasi') {
 	$this->load->view('sysadmin/tabel');
+}else if($content == 'permohonan-informasi') {
+	$this->load->view('sysadmin/tabel');
 }

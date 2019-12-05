@@ -40,6 +40,7 @@
                                     Layanan Informasi
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="<?= site_url('ppid/form-permohonan-informasi') ?>">Form Permohonan Informasi</a>
                                     <?php foreach ($this->Mhalaman->readByKategori(9)->result() as $key): ?>
                                     <a class="dropdown-item" href="<?= site_url('ppid/halaman/'.$key->slug_halaman) ?>"><?= $key->judul_halaman ?></a>
                                     <?php endforeach ?>

@@ -13,6 +13,7 @@ if ( ! function_exists('web_info')){
 			$alamat						= $key->alamat;
 			$email						= $key->email;
 			$telepon					= $key->telepon;
+			$wa							= $key->no_wa;
 			$facebook					= $key->facebook;
 			$instagram					= $key->instagram;
 			$twitter					= $key->twitter;
@@ -33,6 +34,8 @@ if ( ! function_exists('web_info')){
 			return $email;
 		}else if($a == "telepon"){
 			return $telepon;
+		}else if($a == "wa"){
+			return $wa;
 		}else if($a == "facebook"){
 			return $facebook;
 		}else if($a == "instagram"){
